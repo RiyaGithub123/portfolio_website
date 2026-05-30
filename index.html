@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Chowdhury | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">Riya</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-left">
+                <h1>Hi there,<br>I'm <span class="highlight">Riya Chowdhury</span></h1>
+                <p>An aspiring Hardware and Chip Design Engineer with a passion for VLSI, ASIC, FPGA, RTL Design, and Semiconductor Technology. I enjoy building efficient digital systems and continuously expanding my expertise in modern hardware and integrated circuit design.</p>
+                <a href="resume.pdf" class="btn" download>Download Resume</a>
+            </div>
+            <div class="hero-right">
+                <div class="img-container">
+                    <img src="profile.jpg" alt="Riya Chowdhury" id="profile-pic" onerror="this.src='https://via.placeholder.com/300x300/c084fc/ffffff?text=Riya'">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="box about-box">
+                <p>Final-year Electronics and Communication Engineering student with a strong interest in Hardware Engineering, VLSI, ASIC, FPGA, Embedded Systems, and Chip Design. Passionate about Verilog HDL, RTL Design, and Semiconductor Technology, with a focus on developing innovative and efficient digital hardware solutions.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="grid-container">
+                <div class="box skill-box">
+                    <h3>Hardware & VLSI</h3>
+                    <p>Verilog HDL, RTL Design, FPGA Design, Xilinx Vivado</p>
+                </div>
+                <div class="box skill-box">
+                    <h3>Programming</h3>
+                    <p>C, C++, Python, JavaScript</p>
+                </div>
+                <div class="box skill-box">
+                    <h3>Embedded Systems</h3>
+                    <p>ESP32, Arduino, Microcontroller Programming</p>
+                </div>
+                <div class="box skill-box">
+                    <h3>Web Technologies</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="box skill-box">
+                    <h3>Engineering Tools & Skills</h3>
+                    <p>MATLAB, Circuit Design</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="grid-container">
+                <div class="box project-box">
+                    <h3>1. IoT Safety Tracking System</h3>
+                    <span class="sub-title">ESP32, GPS & Telegram Bot</span>
+                    <ul>
+                        <li>Engineered a real-time tracking system integrating GPS NMEA sentence parsing for precise location accuracy.</li>
+                        <li>Implemented a wireless notification layer using the Telegram Bot API, focusing on latency reduction in critical data transmission.</li>
+                        <li>Applied Signal Filtering techniques to GPS data to eliminate outliers and provide smooth real-time tracking coordinates.</li>
+                    </ul>
+                </div>
+                <div class="box project-box">
+                    <h3>2. AES Encrypted Wireless Communication</h3>
+                    <span class="sub-title">ESP32 and 433 MHz RF Module</span>
+                    <ul>
+                        <li>Developed a secure point-to-point communication link implementing the AES-128 encryption algorithm to ensure data integrity and confidentiality.</li>
+                        <li>Optimized RF Signal Transmission parameters to minimize packet loss and improve the Reliability-to-Noise ratio over a 433 MHz frequency band.</li>
+                        <li>Performed real-time Signal Debugging and performance analysis of wireless data packets using serial monitoring tools.</li>
+                    </ul>
+                </div>
+                <div class="box project-box">
+                    <h3>3. RISC-V Processor in Verilog</h3>
+                    <span class="sub-title">Verilog HDL, RTL Design</span>
+                    <ul>
+                        <li>Designed and implemented a 32-bit 5-stage Pipelined RISC-V Processor using Verilog HDL and RTL design methodologies.</li>
+                        <li>Developed key processor modules including the Program Counter, Register File, ALU, Control Unit, and Pipeline Registers with hazard management techniques.</li>
+                        <li>Conducted simulation, waveform analysis, and functional verification to validate processor performance and strengthen expertise in computer architecture and digital hardware design.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="grid-container">
+                <div class="box edu-box">
+                    <h3>UNIVERSITY OF KALYANI</h3>
+                    <p class="deg">B.Tech ECE (2026)</p>
+                    <p class="score">CGPA : 8.68 (Gross till 7th Sem)</p>
+                </div>
+                <div class="box edu-box">
+                    <h3>KENDRIYA VIDYALAYA NO.1 ISHAPORE</h3>
+                    <p class="deg">CLASS 12ᵀᴴ (June, 2022)</p>
+                    <p class="score">Percentage: 87%</p>
+                </div>
+                <div class="box edu-box">
+                    <h3>KENDRIYA VIDYALAYA NO.1 ISHAPORE</h3>
+                    <p class="deg">CLASS 10ᵀᴴ (June, 2020)</p>
+                    <p class="score">Percentage: 89.4%</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:chowdhuryriya59@gmail.com" class="contact-btn" title="Email Me">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/riya-chowdhury-7a5802258/" target="_blank" class="contact-btn" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
